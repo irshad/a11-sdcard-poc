@@ -1,0 +1,9 @@
+{
+	"appId": "com.poc.com",
+	"appName": "A11 Sdcard POC",
+	"webDir": "public",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"Filesystem": {}
+	}
+}
