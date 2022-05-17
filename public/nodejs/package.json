@@ -1,0 +1,13 @@
+{
+  "name": "capacitor-node-project",
+  "version": "1.0.0",
+  "description": "node part of the project",
+  "main": "main.js",
+  "author": "hampoelz",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
