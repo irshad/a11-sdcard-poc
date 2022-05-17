@@ -4,6 +4,9 @@
   "webDir": "public",
   "bundledWebRuntime": false,
   "plugins": {
-    "Filesystem": {}
+    "Filesystem": {},
+    "NodeJS": {
+      "nodeDir": "nodejs"
+    }
   }
 }

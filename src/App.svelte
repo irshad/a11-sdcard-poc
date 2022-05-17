@@ -8,7 +8,7 @@
 			await Filesystem.writeFile({
 				path: 'onelern.txt',
 				data: value,
-				directory: Directory.Documents,
+				directory: Directory.ExternalStorage,
 				encoding: Encoding.UTF8,
 			});
 		} catch (error) {
@@ -20,7 +20,7 @@
 		try {
 			const contents = await Filesystem.readFile({
 				path: 'onelern.txt',
-				directory: Directory.Documents,
+				directory: Directory.ExternalStorage,
 				encoding: Encoding.UTF8,
 			});
 			alert(Directory.Documents);
